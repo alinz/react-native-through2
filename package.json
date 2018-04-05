@@ -1,0 +1,20 @@
+{
+  "name": "react-native-through2",
+  "version": "0.0.1",
+  "description": "through2 for react-native",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:alinz/react-native-through2.git"
+  },
+  "author": "a.najafizadeh@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alinz/react-native-stream/issues"
+  },
+  "homepage": "https://github.com/alinz/react-native-through2",
+  "dependencies": {
+    "base64-js": "^1.2.0",
+    "ieee754": "^1.1.8"
+  }
+}
