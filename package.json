@@ -1,6 +1,6 @@
 {
   "name": "react-native-through2",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "through2 for react-native",
   "main": "src/index.js",
   "repository": {
