@@ -1,5 +1,5 @@
-var Transform = require('./react-native-stream/stream').Transform,
-  inherits = require('./react-native-stream/util').inherits
+var Transform = require('react-native-stream').Transform,
+  inherits = require('./util').inherits
 
 function DestroyableTransform(opts) {
   Transform.call(this, opts)

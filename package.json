@@ -1,6 +1,6 @@
 {
   "name": "react-native-through2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "through2 for react-native",
   "main": "src/index.js",
   "repository": {
@@ -14,7 +14,6 @@
   },
   "homepage": "https://github.com/alinz/react-native-through2",
   "dependencies": {
-    "base64-js": "^1.2.0",
-    "ieee754": "^1.1.8"
+    "react-native-stream": "^0.1.9"
   }
 }
