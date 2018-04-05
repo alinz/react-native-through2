@@ -1,5 +1,6 @@
 var Transform = require('react-native-stream').Transform,
-  inherits = require('./util').inherits
+  inherits = require('./util').inherits,
+  xtend = require('xtend')
 
 function DestroyableTransform(opts) {
   Transform.call(this, opts)
@@ -59,16 +60,7 @@ module.exports.ctor = through2(function(options, transform, flush) {
   function Through2(override) {
     if (!(this instanceof Through2)) return new Through2(override)
 
-    //this.options = xtend(options, override)
-    this.options = {
-      ...options
-    }
-    if (override) {
-      this.options = {
-        ...this.options,
-        ...override
-      }
-    }
+    this.options = xtend(options, override)
 
     DestroyableTransform.call(this, this.options)
   }
