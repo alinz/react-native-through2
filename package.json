@@ -1,6 +1,6 @@
 {
   "name": "react-native-through2",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "through2 for react-native",
   "main": "src/index.js",
   "repository": {
@@ -10,7 +10,7 @@
   "author": "a.najafizadeh@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alinz/react-native-stream/issues"
+    "url": "https://github.com/alinz/react-native-through2/issues"
   },
   "homepage": "https://github.com/alinz/react-native-through2",
   "dependencies": {
